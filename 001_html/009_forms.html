@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <form action="" method="">
+        <label for="name">Your name here</label>
+        <input id="name" name="name" type="text" placeholder="Please, write your name here" maxlength="10" size="50" required/>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Please, insert your email">
+        <br>
+        <label for="birthday">Birthday</label>
+        <input name="birthday" id="birthday" type="date">
+        <br>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" cols="24" rows="12"></textarea>
+        <br>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option value="ecuador">Ecuador</option>
+            <option value="peru">Perú</option>
+            <option value="colombia">Colombia</option>
+            <option value="chile">Chile</option>
+            <option value="bolivia">Bolivia</option>
+        </select>
+        <br>
+        <input type="radio" name="genero" value="hombre" id="hombre">Hombre
+        <input type="radio" name="genero" value="mujer" id="mujer">Mujer
+        <br>
+        <input type="checkbox" name="terminos" id="terminos"><label for="terminos">Terminos y condiciones</label>
+        <input type="submit">
+    </form>
+
+</body>
+</html>
