@@ -1,0 +1,33 @@
+
+
+p::first-letter {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+*::selection {
+    background-color: brown;
+}
+
+.box {
+    background: #f9a03f;
+    height: 150px;
+    width: 150px;
+}
+
+.box::before {
+    content: 'Before the box';
+    color: aliceblue;
+    position: relative;
+    left: 50px;
+}
+
+.box::after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-color: #000;
+    position: relative;
+    left: 200px;
+}

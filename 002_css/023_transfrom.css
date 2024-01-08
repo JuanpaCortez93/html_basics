@@ -1,0 +1,10 @@
+.box {
+    background: #ffaa5a;
+    width: 200px;
+    height: 200px;
+    /* transform: translateY(200px); */
+    /* transform: scale(2,2); */
+    /* transform: rotate(45deg); */
+    transform: translate(200px) scale(1.5,1) rotate(10deg) skew(20deg,0deg);
+}
+

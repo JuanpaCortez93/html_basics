@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 62.5%;
+}
+
+.container {
+    max-width: 1000px;
+    min-width: 320px;
+    background-color: #ccc;
+    margin: 20px auto;
+}
+
+header {
+    background: #30323d;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    background: #fff;
+    padding: 20px;
+    width: 80%;
+    float: left;
+}
+
+aside {
+    background: #e8c547;
+    color: white;
+    padding: 20px;
+    width: 20%;
+    float: left;
+    height: auto;
+}
+
+
+footer {
+    clear: both;
+    background: #4d5061;
+    padding: 20px;
+    color: white;
+}
