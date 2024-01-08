@@ -1,0 +1,13 @@
+body {
+    font-size: 62.5%;
+}
+
+p {
+    font-size: 1.6em;
+}
+
+div {
+    width: 20em;
+    height: 20em;
+    background-color: black;
+}

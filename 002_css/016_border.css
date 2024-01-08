@@ -1,0 +1,26 @@
+div {
+    background-color: #226fc1;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+
+.box1 {
+    border: 1px solid salmon;
+}
+
+.box2 {
+    border: 7px dotted #000;
+    border-radius: 0px 10px 20px 50px;
+}
+
+.box3 {
+    border: 7px dashed darkblue;
+    border-radius: 50%;
+}
+
+.box4 {
+    border: 7px double #000;
+    border-radius: 8px;
+}

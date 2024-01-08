@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cajaPadre {
+    background-color: #2e294a;
+    width: 700px;
+    height: auto;
+    overflow: hidden;
+}
+
+.caja {
+    width: 200px;
+    color: #fff;
+    font-size: 38px;
+    height: 200px;
+    background-color: #0e6ba8;
+    margin: 20px;
+}
+
+.uno {
+    float: left;
+}
+
+.dos {
+    float: left;
+}
+
+/* .clear {
+    clear: both;
+} */
+
+
+.aritculo {
+    width: 800px;
+    background-color: #ccc ;
+}
+
+.articulo img {
+    float: left;
+}

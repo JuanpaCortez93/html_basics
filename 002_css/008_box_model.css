@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    text-align: center;
+}
+
+.caja {
+    background: #0353a4;
+    width: 200px;
+    height: auto;
+    
+    padding: 20px;
+    border: 2px solid black;
+    margin: 20px;
+    /* margin: 10px 20px 5px 0px; */
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    margin-left: 0px; */
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000500;
+
+}
+
+.container {
+    width: 100%;
+}
+
+.container img {
+    vertical-align: top;
+    width: 400px;
+    padding: 5px;
+    margin: 20px;
+    border: 1px solid #484848;
+    opacity: .5;
+    cursor: pointer;
+}
+
+
+.container img:hover {
+    border: 1px solid white;
+    opacity: 1;
+}
+
+

@@ -1,0 +1,21 @@
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: brown;
+    color: blanchedalmond;   
+}
+
+a:link {
+    color: green;
+}
+
+a:visited {
+    text-decoration: line-through;
+}
+
+a:active {
+    color:coral;
+}

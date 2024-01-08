@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%;
+}
+
+div article p {
+    font-size: 1.5rem;
+}
+
+div p a {
+    color: blueviolet;
+}
+
+.grande {
+    font-size: 2rem;
+}
