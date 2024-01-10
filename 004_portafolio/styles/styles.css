@@ -287,11 +287,11 @@ footer .social-networks .github:hover { color: #4078c0; }
 
 @media screen and (max-width: 500px) {
     header .text-container .text .name {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     header .text-container .text .position {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
     footer .social-networks .container {
