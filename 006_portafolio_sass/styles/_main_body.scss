@@ -1,0 +1,33 @@
+main {
+    width: 70%;
+    float: left;
+    background: white;
+
+    .imagen {
+        width: 100%;
+
+        img {
+            width: 100%;
+            vertical-align: top;
+        }
+    }
+
+    .post {
+        padding: 40px;
+
+        article {
+            h2 {
+                margin-bottom: 10px;
+                color: #424242;
+                font-size: 2.8em;
+            }
+
+            p {
+                padding: 15px;
+                line-height: 2em;
+                font-size: 1.4em;
+            }
+
+        }
+    }
+}
