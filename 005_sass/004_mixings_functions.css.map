@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACI,IAAK;EACD,UAAU,EAAE,sBAAM",
+"sources": ["004_mixings_functions.scss"],
+"names": [],
+"file": "004_mixings_functions.css"
+}

@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  background: #f2f2f2;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%; }
+
+.container {
+  width: 400px;
+  min-width: 320px;
+  margin: 50px auto; }
+
+.user-form .container-inputs {
+  padding: 20px;
+  background-color: white;
+  border: 6px; }
+.user-form input[type=text], .user-form input[type=email] {
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8em; }
+  .user-form input[type=text]:focus, .user-form input[type=email]:focus {
+    border-bottom: 2px solid #246e92; }
+.user-form .sex {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  font-size: 1.8em; }
+  .user-form .sex .label-radio {
+    background: rgba(249, 160, 63, 0.4);
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    width: 33%;
+    border: 5px; }
+  .user-form .sex input[type=radio] {
+    display: none; }
+    .user-form .sex input[type=radio]:checked + .label-radio {
+      background: #faa03f; }
+.user-form .terms {
+  text-align: center;
+  color: #424242; }
+  .user-form .terms label {
+    margin-left: 10px;
+    font-size: 2em; }
+.user-form .error {
+  display: none;
+  list-style: none;
+  margin-top: 20px;
+  border-radius: 3px;
+  background-color: #ce1818;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 1.4em; }
+.user-form .btn__submit {
+  width: 100%;
+  text-align: center;
+  background-color: #246eb9;
+  color: white;
+  border: none;
+  display: block;
+  padding: 15px 10px;
+  cursor: pointer;
+  font-size: 1.8em;
+  font-weight: 500;
+  border: 8px;
+  transition: all .5s ease; }
+  .user-form .btn__submit:hover {
+    background: #5357ad; }
+
+/*# sourceMappingURL=styles.css.map */

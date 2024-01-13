@@ -1,0 +1,24 @@
+body {
+  background: #1b3d82;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.news {
+  background: #e9f1f7;
+  width: 500px;
+  padding: 20px; }
+  .news h1 {
+    color: brown; }
+  .news p {
+    color: #4d5061; }
+    .news p a {
+      text-decoration: underline;
+      color: #4d5061; }
+
+div {
+  text-align: center; }
+  div a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #4d5061; }
+
+/*# sourceMappingURL=002_selector_nodes.css.map */

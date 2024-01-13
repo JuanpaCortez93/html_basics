@@ -1,0 +1,21 @@
+html {
+  background: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.btn, .btn-red, .btn-blue, .btn-green {
+  display: inline-block;
+  padding: 15px 20px;
+  background: none;
+  color: #fff;
+  text-decoration: none; }
+
+.btn-red {
+  background: brown; }
+
+.btn-blue {
+  background: cadetblue; }
+
+.btn-green {
+  background: greenyellow; }
+
+/*# sourceMappingURL=005_extended_classes.css.map */

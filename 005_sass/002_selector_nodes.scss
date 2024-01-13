@@ -1,0 +1,36 @@
+$primary: #4d5061;  
+
+body {
+    background: #1b3d82;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.news {
+    background: #e9f1f7;
+    width: 500px;
+    padding: 20px;
+
+    h1 {
+        color: brown;
+    }
+
+    p {
+        color: $primary;
+
+        a {
+            text-decoration: underline;
+            color: $primary;
+        }
+    }
+
+}
+
+div {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        font-size: 25px;
+        color: $primary;
+    }
+}

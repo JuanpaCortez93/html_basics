@@ -1,0 +1,7 @@
+@mixin colores($fondo) {
+    body {
+        background: $fondo;
+    }
+}
+
+@include colores(rgba(#ff8000,0.5));

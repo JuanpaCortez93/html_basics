@@ -1,0 +1,114 @@
+$primary-font: 'Roboto', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background: #f2f2f2;
+    font-family: $primary-font;
+    font-size: 62.5%;
+}
+
+.container {
+    width: 400px;
+    min-width: 320px;
+    margin: 50px auto;
+}
+
+.user-form {
+    .container-inputs {
+        padding: 20px;
+        background-color: white;
+        border: 6px;
+    }
+
+    input[type=text], input[type=email] {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 15px 10px;
+        border: none;
+        border-bottom: 2px solid #ccc;
+        font-family: $primary-font;
+        font-size: 1.8em;
+    
+        &:focus {
+            border-bottom: 2px solid #246e92;
+        }
+    
+    }
+
+    .sex {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        margin-bottom: 20px;
+        font-size: 1.8em;
+
+        .label-radio {
+            background: rgba(249, 160, 63, .4);
+            cursor: pointer;
+            padding: 10px;
+            text-align: center;
+            width: 33%;
+            border: 5px;
+        }
+
+        input[type=radio] {
+            display: none;
+
+            &:checked + .label-radio {
+                background: #faa03f;
+            }
+        }
+
+    }
+
+    .terms {
+        text-align: center;
+        color: #424242;
+
+        label {
+            margin-left: 10px;
+            font-size: 2em;
+        }
+    }
+
+
+    .error {
+        display: none; 
+        list-style: none;
+        margin-top: 20px;
+        border-radius: 3px;
+        background-color: #ce1818;
+        color: white;
+        padding: 15px 10px;
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+
+    .btn__submit {
+        width: 100%;
+        text-align: center;
+        background-color: #246eb9;
+        color: white;
+        border: none;
+        display: block;
+        padding: 15px 10px;
+        cursor: pointer;
+        font-size: 1.8em;
+        font-weight: 500;
+        border: 8px;
+        transition: all .5s ease;
+
+        &:hover {
+            background: #5357ad;
+        }
+    }
+
+}
+

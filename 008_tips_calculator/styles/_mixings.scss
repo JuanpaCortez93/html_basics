@@ -1,0 +1,40 @@
+@mixin label {
+    display: block;
+    color: $dark-grayish-cyan;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+@mixin input ($icon_route) {
+    width: 100%;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background-color: $very-light-grayish-cyan;
+    font-family: $primary-font;
+    font-size: 2em;
+    text-align: right;
+    caret-color: $primary;
+    padding-right: 10px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:focus {
+        outline: none;
+        border: 2px solid $primary;
+    }
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+    }
+
+    background: {
+        image: url($icon_route);
+        repeat: no-repeat;
+        position: 10px center;
+        color: $very-light-grayish-cyan;
+    }
+
+}
